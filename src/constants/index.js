@@ -42,15 +42,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Software Engineer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Backend Engineer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "AI, Cloud & DevOps Enthusiast",
     icon: backend,
   },
   {
@@ -116,54 +116,29 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Software Engineering Intern – Cloud & AI",
+    company_name: "Celebal Technologies",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2025 - Ongoing",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      " Collaborated with cross-functional teams to modernize legacy enterprise systems into microservice-based architectures.",
+      " Reducing deployment time by 30% and improving team velocity.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      " Partnered with DevOps engineers to implement CI/CD pipelines using Docker, Kubernetes, and Azure.",
+      " Improving system scalability and maintainability by 25%.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Student Intern AI & Cloud",
+    company_name: "AICTE – TechSaksham (Microsoft & SAP)",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2025 - Feb 2025",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      " Designed and launched a cloud-native AI virtual health assistant that scaled to 10,000+ active users, leveraging real-time wearable data through AWS for personalized wellness tracking.",
+      "Optimized machine learning pipelines to improve health insight accuracy to 90%, contributing to a 20% boost in user wellness metrics across a monitored user base.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -172,59 +147,63 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Gaurav showed an impressive ability to learn fast and take ownership. Even as a fresher, he worked like a trained engineer.",
+    name: "Priya Sharma",
+    designation: "Project Mentor",
+    company: "AICTE - TechSaksham(Microsoft & SAP)",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "We were genuinely impressed with Gaurav’s dedication. He quickly adapted to cloud and DevOps concepts with a positive attitude.",
+    name: "Kuldeep Chobey",
+    designation: "Assistant Vice President-HR",
+    company: "Celebal Technologies",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Working with Gaurav felt effortless — he takes responsibility and gets things done.",
+    name: "Priyanshi Jain",
+    designation: "HR Executive",
+    company: "Celebal Technologies",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "IntervueAI",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "IntervueAI is a cutting-edge platform that helps users practice job interviews through AI-powered conversations and receive detailed feedback on their performance.",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Typescript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Firebase",
         color: "pink-text-gradient",
+      },
+      {
+        name: "VapiSDK",
+        color: "orange-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/gaurav-shinde-07/interview-ai",
   },
   {
-    name: "Job IT",
+    name: "Career_AI",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An interactive Next.js dashboard that identifies skill gaps, generates career roadmaps, and shows real-time tech news in one place.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
@@ -232,33 +211,41 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Node.js",
         color: "pink-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "orange-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/gaurav-shinde-07/career_ai",
   },
   {
-    name: "Trip Guide",
+    name: "Cloud Agnostic K8s",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Built a cross-cloud deployment tool for containerized applications, automating rollouts on Kubernetes clusters across AWS, Azure, and GCP.",
     tags: [
       {
-        name: "nextjs",
+        name: "AWS EKS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Azure AKS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "GCP GKE",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Terraform",
+        color: "orange-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/gaurav-shinde-07/cloud-agnostic-k8s-deployment-main",
   },
 ];
 
